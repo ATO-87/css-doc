@@ -1,0 +1,120 @@
+/* roboto mono / open sans */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+
+
+
+.header {
+    font-family: "roboto mono", sans-serif;
+    font-size: 35px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    color: salmon;
+}
+
+.menu-links {
+    font-family: "open-sans", sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100%;
+    background-color: lightgrey;
+    border-right: 1px solid black;
+    z-index: 1; 
+}
+
+.main-section {
+    position: relative;
+    margin-left: 450px;
+    padding-top: 25px;
+    margin-bottom: 100px;
+    
+}
+
+header {
+    text-transform: capitalize;
+    font-family: "roboto mono", sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+
+p {
+    font-family: "open sans", sans-serif;
+}
+
+code {
+    background-color: lightgrey;
+    padding: 5px;
+    font-size: 15px;
+}
+
+ol{
+    font-family: "roboto mono", sans-serif;
+    margin-left: 100px;
+}
+
+@media (max-width:800px) {
+.header {
+    font-family: "roboto mono", sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    color: salmon;
+   
+}
+
+.menu-links {
+    display: block;
+    font-family: "open-sans", sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+
+}
+
+#navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: lightgrey;
+    z-index: 1; 
+    text-align: center;
+}
+
+.main-section {
+    position: relative;
+    margin-left: 5px;
+    padding-top: 10px;
+    margin-bottom: 100px;
+    width: 100%;
+    
+}
+
+#main-doc {
+    margin-top: 300px;
+}
+
+}
